@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * MageINIC
+ * Copyright (C) 2023 MageINIC <support@mageinic.com>
+ *
+ * NOTICE OF LICENSE
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see http://opensource.org/licenses/gpl-3.0.html.
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category MageINIC
+ * @package MageINIC_OrderSuccessPageGraphQl
+ * @copyright Copyright (c) 2023 MageINIC (https://www.mageinic.com/)
+ * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License,version 3 (GPL-3.0)
+ * @author MageINIC <support@mageinic.com>
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">
+        <arguments>
+            <argument name="extendedConfigData" xsi:type="array">
+                <item name="order_success_page_enable" xsi:type="string">
+                    order_success_page/general/enable_disable
+                </item>
+                <item name="order_success_page_show_shipping_address" xsi:type="string">
+                    order_success_page/general/show_shipping_address
+                </item>
+                <item name="order_success_page_show_shipping_method" xsi:type="string">
+                    order_success_page/general/show_shipping_method
+                </item>
+                <item name="order_success_page_show_billing_address" xsi:type="string">
+                    order_success_page/general/show_billing_address
+                </item>
+                <item name="order_success_page_show_payment_method" xsi:type="string">
+                    order_success_page/general/show_payment_method
+                </item>
+                <item name="order_success_page_show_order_product" xsi:type="string">
+                    order_success_page/general/show_order_product
+                </item>
+                <item name="order_success_page_show_order_status" xsi:type="string">
+                    order_success_page/general/show_order_status
+                </item>
+                <item name="order_success_page_show_print_order_link" xsi:type="string">
+                    order_success_page/general/show_print_order_link
+                </item>
+                <item name="order_success_page_show_reorder_link" xsi:type="string">
+                    order_success_page/general/show_reorder_link
+                </item>
+                <item name="order_success_page_description" xsi:type="string">
+                    order_success_page/general/description
+                </item>
+                <item name="order_success_page_thank_message" xsi:type="string">
+                    order_success_page/thank_config/thank_message
+                </item>
+                <item name="order_success_page_size_thanks" xsi:type="string">
+                    order_success_page/thank_config/size_thanks
+                </item>
+                <item name="order_success_page_color_thanks" xsi:type="string">
+                    order_success_page/thank_config/color_thanks
+                </item>
+                <item name="order_success_page_text_before" xsi:type="string">
+                    order_success_page/before_config/text_before
+                </item>
+                <item name="order_success_page_size_before_text" xsi:type="string">
+                    order_success_page/before_config/size_before_text
+                </item>
+                <item name="order_success_page_color_text_before" xsi:type="string">
+                    order_success_page/before_config/color_text_before
+                </item>
+                <item name="order_success_page_text_after" xsi:type="string">
+                    order_success_page/after_config/text_after
+                </item>
+                <item name="order_success_page_size_after_text" xsi:type="string">
+                    order_success_page/after_config/size_after_text
+                </item>
+                <item name="order_success_page_color_text_after" xsi:type="string">
+                    order_success_page/after_config/color_text_after
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>
