@@ -1,6 +1,6 @@
 {
     "name": "mageinic/order-success-page-graph-ql",
-    "description": "The Order Success Page graphql allows store owners to customize the Checkout Success Page developed by MageINIC team.",
+    "description": "Order Success Page GraphQL is a part of MageINIC Order Success Page extension that adds GraphQL features. This extension extends Order Success Page definitions.",
     "type": "magento2-module",
     "license": [
         "OSL-3.0",
