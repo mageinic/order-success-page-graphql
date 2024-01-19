@@ -1,5 +1,5 @@
 {
-    "name": "mageinic/order-success-page-graph-ql",
+    "name": "mageinic/order-success-page-graphql",
     "description": "Order Success Page GraphQL is a part of MageINIC Order Success Page extension that adds GraphQL features. This extension extends Order Success Page definitions.",
     "type": "magento2-module",
     "license": [
@@ -11,7 +11,7 @@
     "require": {
         "php": "^8.0",
         "magento/module-graph-ql": "100.4.*",
-        "mageinic/ordersuccesspage": "1.0.*"
+        "mageinic/order-success-page": "1.0.*"
     },
     "authors": [
         {

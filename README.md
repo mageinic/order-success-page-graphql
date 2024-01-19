@@ -7,7 +7,7 @@
 Run the following command in Magento 2 root folder:
 
 ```
-composer require mageinic/order-success-page-graph-ql
+composer require mageinic/order-success-page-graphql
 
 php bin/magento maintenance:enable
 php bin/magento setup:upgrade
@@ -22,7 +22,7 @@ Magento 2 Order Success Page requires installing [MageINIC Order Success Page](h
 
 **Or Install via composer [Recommend]**
 ```
-composer require mageinic/ordersuccesspage
+composer require mageinic/order-success-page
 ```
 
 ## 2. How to use
